@@ -11,8 +11,7 @@ for i in range(3):
 for i in range(3):
     if x.count(x[i]) == 1:
         a = x[i]
-    if x.count(y[i]) == 1:
+    if y.count(y[i]) == 1:
         b = y[i]
         
 print(a,b)
-        
