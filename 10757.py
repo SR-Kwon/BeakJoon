@@ -26,3 +26,6 @@ if result[0] == 0:
 for i in result[:]:
     print(i, end='')
 print()
+
+#####2안
+# print(sum(map(int, input().split())))
