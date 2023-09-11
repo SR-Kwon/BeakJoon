@@ -15,5 +15,5 @@ class tree:
             current_node = self.head
                 
 head = Node(1)
-binary_tree = NodeMgmt(head)
+
 
