@@ -14,4 +14,22 @@ for i in range(attend_num):
     else:
         boys[grade - 1] += 1
 
+room_num = 0
 #방 배정 시작
+for i in boys:
+    if i == 0:
+        pass
+    else:
+        while i > 0:
+            room_num += 1
+            i -= each_room_max
+            
+for i in girls:
+    if i == 0:
+        pass
+    else:
+        while i > 0:
+            room_num += 1
+            i -= each_room_max
+
+print(room_num)
